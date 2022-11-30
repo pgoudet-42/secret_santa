@@ -1,0 +1,9 @@
+/home/pierre-louis/Documents/script_blind_chrismas/santa_secret/target/debug/deps/encoding_index_simpchinese-d59a3cb94c91aeac.rmeta: /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/lib.rs /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030.rs /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs
+
+/home/pierre-louis/Documents/script_blind_chrismas/santa_secret/target/debug/deps/libencoding_index_simpchinese-d59a3cb94c91aeac.rlib: /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/lib.rs /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030.rs /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs
+
+/home/pierre-louis/Documents/script_blind_chrismas/santa_secret/target/debug/deps/encoding_index_simpchinese-d59a3cb94c91aeac.d: /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/lib.rs /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030.rs /home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs
+
+/home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/lib.rs:
+/home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030.rs:
+/home/pierre-louis/.cargo/registry/src/github.com-1ecc6299db9ec823/encoding-index-simpchinese-1.20141219.5/gb18030_ranges.rs:
