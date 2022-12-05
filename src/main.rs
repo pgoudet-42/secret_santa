@@ -56,10 +56,10 @@ fn gen_paires<'a>(reference: &'a Vec<&'a str>) -> HashMap<&'a str, &'a str> {
 }
 
 #[warn(dead_code)]
-fn send_mail(sender: &str, to: &str, subject: &str, text: &str, user:&str, pass: &str) {
+fn send_mail(to: &str, subject: &str, text: &str, user:&str, pass: &str) {
     let email = EmailBuilder::new()
         .to(to)
-        .from(sender)
+        .from(user)
         .subject(subject)
         .text(text)
         .build()
@@ -81,7 +81,6 @@ fn format_text(key: &str, correspondances: &HashMap<&str, &str>) -> String {
 }
 
 fn set_mail(paires: &HashMap<&str, &str>, correspondances: &HashMap<&str, &str>, user: &str, pass: &str) {
-    const SENDER: &str = "chaire@chaire-cyber-navale.fr";
     const SUBJECT: &str = "SEEEEEEECREEETTTTT";
     let mut receiver: &str;
     let mut text: &str;
@@ -91,7 +90,7 @@ fn set_mail(paires: &HashMap<&str, &str>, correspondances: &HashMap<&str, &str>,
         receiver = value_1;
         tmp = format_text(value_2, correspondances);
         text = &tmp[..];
-        send_mail(SENDER, receiver, SUBJECT, text, user, pass)
+        send_mail(receiver, SUBJECT, text, user, pass)
     }
 }
 
